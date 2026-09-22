@@ -4,9 +4,8 @@
 
 int recursive_strlen(char *string)
 {
-	char *s = string;
 	int i = 0;
-	if (*s == '\0')
+	if (*string == '\0')
 		return (0);
 	else
 		i += 1;

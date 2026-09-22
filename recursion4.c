@@ -4,13 +4,13 @@
 
 int power(int p, int t)
 {
-	if (t == 1)
-		return (p);
+	if (t == 0)
+		return (1);
 	return (p * power(p, t - 1));
 }
 
 int main(void)
 {
-	int i = power(5, 2);
+	int i = power(5, 5);
 	printf("%d", i);
 }
